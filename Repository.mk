@@ -78,6 +78,7 @@ $(eval $(call gb_Helper_register_executables,NONE, \
     salmain \
     salmainargs \
     macro \
+    alloca \
 ))
 
 $(eval $(call gb_Helper_register_executables_for_install,SDK,sdk, \
