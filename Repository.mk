@@ -81,6 +81,7 @@ $(eval $(call gb_Helper_register_executables,NONE, \
     alloca \
     config \
     processworkdir \
+    getprocessinfo \
 ))
 
 $(eval $(call gb_Helper_register_executables_for_install,SDK,sdk, \
