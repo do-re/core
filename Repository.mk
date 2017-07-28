@@ -80,6 +80,7 @@ $(eval $(call gb_Helper_register_executables,NONE, \
     macro \
     alloca \
     config \
+    processworkdir \
 ))
 
 $(eval $(call gb_Helper_register_executables_for_install,SDK,sdk, \
